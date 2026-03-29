@@ -93,14 +93,81 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="/" class="site-logo"><span class="logo-campus">Campus</span><span class="logo-recovery"> Recovery</span><span class="logo-center"> Center</span></a>
-    <nav class="main-nav" aria-label="Primary navigation">
+        <nav class="main-nav" aria-label="Primary navigation">
       <ul class="nav-list">
         <li><a href="/">Home</a></li>
-        <li><a href="/clinical-programs/">Clinical Programs</a></li>
-        <li><a href="/services/">Services</a></li>
-        <li><a href="/substance-use-disorder-treatment-services/">SUD Treatment</a></li>
-        <li><a href="/mental-health-treatment-services/">Mental Health</a></li>
-        <li><a href="/our-team/">Our Team</a></li>
+        <li>
+          <a href="/clinical-programs/">Treatment <span class="dd-arrow">&#9660;</span></a>
+          <div class="nav-dropdown nav-mega">
+            <div>
+              <span class="dd-label">Substance Use</span>
+              <a href="/treatment/alcohol-addiction/">Alcohol Addiction</a>
+              <a href="/treatment/opioid-addiction/">Opioid Addiction</a>
+              <a href="/treatment/cocaine-addiction/">Cocaine Addiction</a>
+              <a href="/treatment/benzo-addiction/">Benzo Addiction</a>
+              <a href="/treatment/prescription-drug-addiction/">Prescription Drugs</a>
+            </div>
+            <div>
+              <span class="dd-label">Mental Health</span>
+              <a href="/treatment/depression/">Depression</a>
+              <a href="/treatment/anxiety/">Anxiety</a>
+              <a href="/treatment/ptsd/">PTSD</a>
+              <a href="/treatment/bipolar-disorder/">Bipolar Disorder</a>
+              <a href="/treatment/dual-diagnosis/">Dual Diagnosis</a>
+              <a href="/treatment/schizophrenia/">Schizophrenia</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="/services/">Programs <span class="dd-arrow">&#9660;</span></a>
+          <div class="nav-dropdown">
+            <a href="/clinical-programs/">Clinical Programs</a>
+            <a href="/services/">Services Overview</a>
+            <a href="/substance-use-disorder-treatment-services/">SUD Treatment</a>
+            <a href="/mental-health-treatment-services/">Mental Health Services</a>
+            <div class="dd-divider"></div>
+            <a href="/php-vs-iop/">PHP vs IOP</a>
+            <a href="/outpatient-vs-inpatient/">Outpatient vs Inpatient</a>
+            <a href="/what-is-mat/">What is MAT?</a>
+          </div>
+        </li>
+        <li>
+          <a href="/locations/lake-worth-beach/">Locations <span class="dd-arrow">&#9660;</span></a>
+          <div class="nav-dropdown">
+            <a href="/locations/lake-worth-beach/">Lake Worth Beach</a>
+            <a href="/locations/boynton-beach/">Boynton Beach</a>
+            <a href="/locations/delray-beach/">Delray Beach</a>
+            <a href="/locations/west-palm-beach/">West Palm Beach</a>
+            <a href="/locations/palm-beach-county/">Palm Beach County</a>
+          </div>
+        </li>
+        <li>
+          <a href="/insurance/">Insurance <span class="dd-arrow">&#9660;</span></a>
+          <div class="nav-dropdown">
+            <a href="/insurance/">Verify Insurance</a>
+            <div class="dd-divider"></div>
+            <a href="/insurance/aetna/">Aetna</a>
+            <a href="/insurance/blue-cross-blue-shield/">Blue Cross Blue Shield</a>
+            <a href="/insurance/cigna/">Cigna</a>
+            <a href="/insurance/united-healthcare/">United Healthcare</a>
+            <a href="/insurance/humana/">Humana</a>
+            <a href="/insurance/tricare/">Tricare</a>
+            <a href="/insurance/medicaid/">Medicaid</a>
+            <a href="/insurance/medicare/">Medicare</a>
+            <a href="/insurance/ambetter/">Ambetter</a>
+            <a href="/insurance/molina-healthcare/">Molina Healthcare</a>
+          </div>
+        </li>
+        <li>
+          <a href="/faq/">Resources <span class="dd-arrow">&#9660;</span></a>
+          <div class="nav-dropdown">
+            <a href="/faq/">FAQ</a>
+            <a href="/signs-of-addiction/">Signs of Addiction</a>
+            <a href="/family-resources/">Family Resources</a>
+            <a href="/aftercare-planning/">Aftercare Planning</a>
+            <a href="/news-updates/">News &amp; Updates</a>
+          </div>
+        </li>
         <li><a href="/admissions/">Admissions</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
@@ -322,5 +389,41 @@ if (header) {
 }
 </script>
 
+<script>
+// Mobile nav toggle
+const toggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.main-nav');
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    nav.classList.toggle('nav-open');
+  });
+}
+
+// Mobile dropdown toggle (touch devices)
+document.querySelectorAll('.nav-list > li').forEach(li => {
+  const dropdown = li.querySelector('.nav-dropdown');
+  if (!dropdown) return;
+  const link = li.querySelector(':scope > a');
+  link.addEventListener('click', e => {
+    if (window.innerWidth <= 768) {
+      e.preventDefault();
+      li.classList.toggle('dd-open');
+      document.querySelectorAll('.nav-list > li').forEach(other => {
+        if (other !== li) other.classList.remove('dd-open');
+      });
+    }
+  });
+});
+
+// Sticky header shadow on scroll
+const header = document.querySelector('.site-header');
+if (header) {
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+  }, { passive: true });
+}
+</script>
 </body>
 </html>

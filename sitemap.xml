@@ -6,6 +6,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
+
   <url>
     <loc>https://campusrecoverycenter.com/clinical-programs/</loc>
     <lastmod>2026-03-29</lastmod>
@@ -31,16 +32,16 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://campusrecoverycenter.com/our-team/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
     <loc>https://campusrecoverycenter.com/admissions/</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/our-team/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://campusrecoverycenter.com/contact/</loc>
@@ -73,29 +74,147 @@
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://campusrecoverycenter.com/single-post/2024/08/22/7-ways-delray-beach-fought-opioid-addiction/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://campusrecoverycenter.com/single-post/2024/08/22/is-it-safe-to-go-to-a-drug-rehab-in-florida/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://campusrecoverycenter.com/single-post/2024/08/21/can-the-addiction-industry-be-taught-regulations-from-the-kidney-industry/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://campusrecoverycenter.com/single-post/category/uncategorized/</loc>
+    <loc>https://campusrecoverycenter.com/faq/</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.40</priority>
+    <priority>0.80</priority>
   </url>
+
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/alcohol-addiction/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/opioid-addiction/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/cocaine-addiction/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/benzo-addiction/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/prescription-drug-addiction/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/depression/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/anxiety/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/ptsd/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/bipolar-disorder/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/schizophrenia/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/treatment/dual-diagnosis/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://campusrecoverycenter.com/locations/lake-worth-beach/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/locations/boynton-beach/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/locations/delray-beach/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/locations/west-palm-beach/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/locations/palm-beach-county/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://campusrecoverycenter.com/signs-of-addiction/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/what-is-mat/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/php-vs-iop/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/outpatient-vs-inpatient/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/family-resources/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/aftercare-planning/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
   <url>
     <loc>https://campusrecoverycenter.com/insurance/</loc>
     <lastmod>2026-03-29</lastmod>
@@ -161,5 +280,30 @@
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://campusrecoverycenter.com/single-post/2024/08/22/7-ways-delray-beach-fought-opioid-addiction/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/single-post/2024/08/22/is-it-safe-to-go-to-a-drug-rehab-in-florida/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/single-post/2024/08/21/can-the-addiction-industry-be-taught-regulations-from-the-kidney-industry/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://campusrecoverycenter.com/single-post/category/uncategorized/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.40</priority>
   </url>
 </urlset>
