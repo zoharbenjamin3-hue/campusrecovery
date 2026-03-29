@@ -7,16 +7,14 @@
 <meta name="description" content="Campus Recovery Center offers evidence-based addiction and mental health treatment in Lake Worth Beach, Florida. Joint Commission accredited PHP, IOP, and outpatient programs. Call (877) 995-0102.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://campusrecoverycenter.com/">
-<link rel="stylesheet" href="/css/style.css">
-
-<!-- Open Graph -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/home.css">
 <meta property="og:title" content="Campus Recovery Center | Addiction &amp; Mental Health Treatment in Lake Worth, FL">
 <meta property="og:description" content="Evidence-based addiction and mental health treatment in Lake Worth Beach, Florida. Joint Commission accredited.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://campusrecoverycenter.com/">
-<meta property="og:site_name" content="Campus Recovery Center">
-
-<!-- Schema: Organization + MedicalOrganization + LocalBusiness + WebSite -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -25,12 +23,8 @@
       "@type": ["MedicalOrganization", "LocalBusiness"],
       "@id": "https://campusrecoverycenter.com/#organization",
       "name": "Campus Recovery Center",
-      "alternateName": "PAX Campus",
       "url": "https://campusrecoverycenter.com/",
-      "logo": "https://campusrecoverycenter.com/logo.png",
-      "description": "Campus Recovery Center provides evidence-based addiction and mental health treatment in Lake Worth Beach, Florida, offering PHP, IOP, and outpatient programs.",
       "telephone": "+1-877-995-0102",
-      "email": "info@campusrecoverycenter.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "19 S Dixie Hwy",
@@ -38,214 +32,531 @@
         "addressRegion": "FL",
         "postalCode": "33460",
         "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 26.6170,
-        "longitude": -80.0569
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-        "opens": "00:00",
-        "closes": "23:59"
-      },
-      "priceRange": "$$",
-      "medicalSpecialty": ["Psychiatric", "AddictionMedicine"],
-      "availableService": [
-        {"@type": "MedicalTherapy", "name": "Partial Hospitalization Program (PHP)"},
-        {"@type": "MedicalTherapy", "name": "Intensive Outpatient Program (IOP)"},
-        {"@type": "MedicalTherapy", "name": "Outpatient Program (OP)"},
-        {"@type": "MedicalTherapy", "name": "Medication-Assisted Treatment (MAT)"},
-        {"@type": "MedicalTherapy", "name": "Individual Therapy"},
-        {"@type": "MedicalTherapy", "name": "Group Therapy"}
-      ],
-      "sameAs": [
-        "https://www.instagram.com/campusrecovery/"
-      ],
-      "hasCredential": {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "Accreditation",
-        "recognizedBy": {
-          "@type": "Organization",
-          "name": "The Joint Commission"
-        }
       }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://campusrecoverycenter.com/#website",
-      "url": "https://campusrecoverycenter.com/",
-      "name": "Campus Recovery Center",
-      "publisher": {"@id": "https://campusrecoverycenter.com/#organization"},
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://campusrecoverycenter.com/#webpage",
-      "url": "https://campusrecoverycenter.com/",
-      "name": "Campus Recovery Center | Addiction & Mental Health Treatment in Lake Worth, FL",
-      "isPartOf": {"@id": "https://campusrecoverycenter.com/#website"},
-      "about": {"@id": "https://campusrecoverycenter.com/#organization"},
-      "datePublished": "2024-08-01",
-      "dateModified": "2026-03-29",
-      "description": "Campus Recovery Center offers evidence-based addiction and mental health treatment in Lake Worth Beach, Florida.",
-      "inLanguage": "en-US"
     }
   ]
 }
 </script>
 </head>
 <body>
+
 <a class="skip-link" href="#main">Skip to main content</a>
 
-<header class="site-header">
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="top">
   <div class="header-inner">
-    <a href="/" class="site-logo">Campus <span>Recovery</span> Center</a>
-    <a href="tel:8779950102" class="header-phone">Call (877) 995-0102</a>
+    <a href="/" class="site-logo">
+      <span class="logo-campus">Campus</span><span class="logo-recovery"> Recovery</span><span class="logo-center"> Center</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <ul class="nav-list">
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/clinical-programs/">Clinical Programs</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/substance-use-disorder-treatment-services/">SUD Treatment</a></li>
+        <li><a href="/mental-health-treatment-services/">Mental Health</a></li>
+        <li><a href="/our-team/">Our Team</a></li>
+        <li><a href="/admissions/">Admissions</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="tel:8779950102" class="header-cta">(877) 995-0102</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-  <nav class="main-nav" aria-label="Primary navigation">
-    <ul class="nav-list">
-      <li><a href="/" aria-current="page">Home</a></li>
-      <li><a href="/clinical-programs/">Clinical Programs</a></li>
-      <li><a href="/services/">Services</a></li>
-      <li><a href="/substance-use-disorder-treatment-services/">SUD Treatment</a></li>
-      <li><a href="/mental-health-treatment-services/">Mental Health</a></li>
-      <li><a href="/our-team/">Our Team</a></li>
-      <li><a href="/admissions/">Admissions</a></li>
-      <li><a href="/news-updates/">News</a></li>
-      <li><a href="/contact/">Contact</a></li>
-    </ul>
-  </nav>
 </header>
 
-<section class="hero">
-  <div class="container">
-    <h1>Evidence-Based Addiction &amp; Mental Health Treatment</h1>
-    <p>Campus Recovery Center provides compassionate, Joint Commission accredited care in Lake Worth Beach, Florida. Begin your path to lasting recovery today.</p>
-    <a href="/admissions/" class="cta-btn">Start Your Recovery</a>
+<!-- ===== HERO ===== -->
+<section class="hero" id="main">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h1>Premier Addiction &amp;<br><strong>Mental Health Treatment</strong><br>in Lake Worth, Florida</h1>
+      <p class="hero-sub">Joint Commission accredited outpatient programs built around your unique path to lasting recovery.</p>
+
+      <ul class="hero-badges">
+        <li><span class="badge-check">✓</span> Joint Commission Accredited</li>
+        <li><span class="badge-check">✓</span> PHP, IOP &amp; Outpatient Programs</li>
+        <li><span class="badge-check">✓</span> Medication-Assisted Treatment</li>
+        <li><span class="badge-check">✓</span> Dual Diagnosis Treatment</li>
+        <li><span class="badge-check">✓</span> Most Major Insurance Accepted</li>
+        <li><span class="badge-check">✓</span> 24/7 Admissions Support</li>
+      </ul>
+
+      <p class="hero-founded"><strong>Founded</strong> by clinicians who believe recovery is possible for everyone.</p>
+
+      <div class="hero-ctas">
+        <a href="tel:8779950102" class="btn-primary">Call Now — (877) 995-0102</a>
+        <a href="/admissions/" class="btn-secondary">Verify Insurance</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-card-icon">🌿</div>
+        <p>Begin your recovery<br>journey today.</p>
+        <a href="/admissions/" class="hero-card-link">Get Started &rarr;</a>
+      </div>
+    </div>
   </div>
 </section>
 
-<main id="main">
-  <div class="container">
-
-    <!-- Byline / Meta -->
-    <div class="article-meta">
-      <div class="meta-row">
-        <span class="meta-label">Author:</span>
-        <span class="meta-value"><a href="/our-team/">Daniel Touloumis</a></span>
-      </div>
-      <div class="meta-row">
-        <span class="meta-label">Editor:</span>
-        <span class="meta-value"><a href="/our-team/">Devin Scheller, Director of Operations</a></span>
-      </div>
-      <div class="meta-row">
-        <span class="meta-label">Medical Reviewer:</span>
-        <span class="meta-value"><a href="/our-team/">Sahil Talwar, PA</a></span>
-      </div>
-      <div class="divider"></div>
-      <div class="meta-row">
-        <span class="meta-label">Published:</span>
-        <span class="meta-value"><time datetime="2024-08-01">August 1, 2024</time></span>
-      </div>
-      <div class="meta-row">
-        <span class="meta-label">Last Edited:</span>
-        <span class="meta-value"><time datetime="2026-03-29">March 29, 2026</time></span>
-      </div>
+<!-- ===== INSURANCE BAR ===== -->
+<div class="insurance-bar">
+  <div class="insurance-bar-inner">
+    <span class="ins-bar-label">Insurance Accepted:</span>
+    <div class="ins-bar-logos">
+      <a href="/insurance/aetna/" class="ins-bar-pill">Aetna</a>
+      <a href="/insurance/blue-cross-blue-shield/" class="ins-bar-pill">Blue Cross Blue Shield</a>
+      <a href="/insurance/cigna/" class="ins-bar-pill">Cigna</a>
+      <a href="/insurance/humana/" class="ins-bar-pill">Humana</a>
+      <a href="/insurance/united-healthcare/" class="ins-bar-pill">United Healthcare</a>
+      <a href="/insurance/medicaid/" class="ins-bar-pill">Medicaid</a>
+      <a href="/insurance/medicare/" class="ins-bar-pill">Medicare</a>
+      <a href="/insurance/tricare/" class="ins-bar-pill">Tricare</a>
     </div>
-
-    <section>
-      <h2>Why Choose Campus Recovery Center?</h2>
-      <p>Located in the heart of Lake Worth Beach, Florida, Campus Recovery Center (also known as PAX Campus) offers a full continuum of outpatient care for individuals facing substance use disorders and mental health conditions. Our Joint Commission accredited facility combines clinical excellence with a supportive community environment designed to foster lasting recovery.</p>
-    </section>
-
-    <section>
-      <h2>Our Treatment Programs</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Partial Hospitalization (PHP)</h3>
-          <p>Seven days per week, five hours daily of intensive clinical programming. Ideal for individuals transitioning from detox or residential treatment who need structured, comprehensive care while reintegrating into daily life.</p>
-          <a href="/services/">Learn more &rarr;</a>
-        </div>
-        <div class="card">
-          <h3>Intensive Outpatient (IOP)</h3>
-          <p>Six days per week, three hours daily. Designed for individuals stepping down from PHP who require continued structure, education, and clinical support as they build independence in their recovery.</p>
-          <a href="/services/">Learn more &rarr;</a>
-        </div>
-        <div class="card">
-          <h3>Outpatient Program (OP)</h3>
-          <p>Two days per week, including individual counseling and group therapy sessions. Provides continued care as individuals progress to a self-directed recovery program with ongoing professional support.</p>
-          <a href="/services/">Learn more &rarr;</a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Conditions We Treat</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Substance Use Disorders</h3>
-          <ul>
-            <li>Alcohol addiction</li>
-            <li>Opioid use disorder</li>
-            <li>Stimulant addiction</li>
-            <li>Chronic relapse</li>
-            <li>Co-occurring disorders</li>
-          </ul>
-          <a href="/substance-use-disorder-treatment-services/">SUD treatment details &rarr;</a>
-        </div>
-        <div class="card">
-          <h3>Mental Health Conditions</h3>
-          <ul>
-            <li>Depression</li>
-            <li>Anxiety disorders</li>
-            <li>PTSD</li>
-            <li>Bipolar disorders</li>
-            <li>Schizoaffective disorder</li>
-          </ul>
-          <a href="/mental-health-treatment-services/">Mental health details &rarr;</a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>What Sets Us Apart</h2>
-      <ul>
-        <li><strong>Joint Commission Accredited</strong> &mdash; Gold Seal of Approval for meeting rigorous quality and safety standards.</li>
-        <li><strong>Highly Credentialed Staff</strong> &mdash; Licensed, master's-level therapists and certified addiction professionals.</li>
-        <li><strong>Medication-Assisted Treatment</strong> &mdash; Vivitrol, Naltrexone, and Suboxone available when medically appropriate.</li>
-        <li><strong>Individualized Care Plans</strong> &mdash; Every client receives a customized treatment plan with a dedicated primary therapist.</li>
-        <li><strong>Full Continuum of Care</strong> &mdash; PHP, IOP, and OP with seamless transitions between levels.</li>
-        <li><strong>Environment of Care</strong> &mdash; A collaborative, learning-based community that builds healthy habits and social support.</li>
-      </ul>
-    </section>
-
+    <a href="/insurance/" class="ins-bar-more">+ More &rarr;</a>
   </div>
+</div>
 
-  <section class="cta-banner">
-    <div class="container">
-      <h2>Ready to Begin Your Recovery?</h2>
-      <p>Our admissions team is available 24/7. Call now or verify your insurance online.</p>
-      <a href="tel:8779950102" class="cta-btn">Call (877) 995-0102</a>
+<!-- ===== TRUST BAR ===== -->
+<div class="trust-bar">
+  <div class="trust-items">
+    <div class="trust-item">
+      <div class="trust-icon">🏅</div>
+      <div class="trust-text"><strong>Joint Commission</strong>Accredited Facility</div>
     </div>
-  </section>
-</main>
+    <div class="trust-item">
+      <div class="trust-icon">⭐</div>
+      <div class="trust-text"><strong>4.8 Star Rating</strong>Google Reviews</div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">🛡️</div>
+      <div class="trust-text"><strong>LegitScript</strong>Certified</div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">💊</div>
+      <div class="trust-text"><strong>MAT Available</strong>Vivitrol &amp; Suboxone</div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">📋</div>
+      <div class="trust-text"><strong>Aftercare Planning</strong>Included in all programs</div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">🕐</div>
+      <div class="trust-text"><strong>24/7 Admissions</strong>Always available</div>
+    </div>
+  </div>
+</div>
 
+<!-- ===== ABOUT ===== -->
+<section class="about-section">
+  <div class="container about-grid">
+    <div class="about-text">
+      <span class="section-label">Who We Are</span>
+      <h2>Compassionate, Evidence-Based Care in Lake Worth Beach</h2>
+      <p>At Campus Recovery Center, you'll find a clinical team that truly cares — alongside a supportive recovery community that understands what you're going through. Our facility offers the full continuum of outpatient care in a structured, welcoming environment.</p>
+      <p>Our licensed, master's-level therapists and certified addiction counselors build fully individualized treatment plans — because no two paths to recovery look the same.</p>
+      <a href="/clinical-programs/" class="btn-outline">Explore Our Programs</a>
+    </div>
+    <div class="about-features">
+      <div class="feature-item">
+        <span class="feature-icon">🎓</span>
+        <div>
+          <h4>Highly Credentialed Clinical Staff</h4>
+          <p>Licensed master's-level therapists and certified addiction counselors on every team.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">📍</span>
+        <div>
+          <h4>Prime South Florida Location</h4>
+          <p>Located in Lake Worth Beach with easy access across Palm Beach County.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🔄</span>
+        <div>
+          <h4>Full Continuum of Care</h4>
+          <p>PHP, IOP, and OP with seamless step-down transitions designed around your progress.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🧠</span>
+        <div>
+          <h4>Integrated Dual Diagnosis</h4>
+          <p>Mental health and substance use treated together for lasting results.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LEVELS OF CARE ===== -->
+<section class="levels-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Levels of Care</span>
+      <h2>What Are the Levels of Addiction Treatment?</h2>
+      <p>Not sure where to start? We offer expert guidance to place you at the right level of care before beginning your recovery journey.</p>
+    </div>
+    <div class="levels-grid">
+      <div class="level-card">
+        <div class="level-num">01</div>
+        <div class="level-icon">🏥</div>
+        <h3>Medical Detox</h3>
+        <p>A 3–10 day medically supervised program to safely manage withdrawal symptoms before entering ongoing treatment.</p>
+        <a href="/clinical-programs/" class="level-link">Learn more &rarr;</a>
+      </div>
+      <div class="level-card">
+        <div class="level-num">02</div>
+        <div class="level-icon">🏠</div>
+        <h3>Residential Treatment</h3>
+        <p>Intensive 24/7 residential care that provides comprehensive therapy in a structured, live-in environment.</p>
+        <a href="/clinical-programs/" class="level-link">Learn more &rarr;</a>
+      </div>
+      <div class="level-card level-card--featured">
+        <div class="level-num">03</div>
+        <div class="level-icon">🗂️</div>
+        <h3>Partial Hospitalization (PHP)</h3>
+        <p>Our most intensive outpatient level — 5 hours/day, 7 days/week of structured clinical programming.</p>
+        <a href="/services/" class="level-link">Learn more &rarr;</a>
+      </div>
+      <div class="level-card level-card--featured">
+        <div class="level-num">04</div>
+        <div class="level-icon">📅</div>
+        <h3>Intensive Outpatient (IOP)</h3>
+        <p>3 hours/day, 6 days/week — continued clinical support while you rebuild independence in daily life.</p>
+        <a href="/services/" class="level-link">Learn more &rarr;</a>
+      </div>
+      <div class="level-card">
+        <div class="level-num">05</div>
+        <div class="level-icon">🌱</div>
+        <h3>Outpatient Program (OP)</h3>
+        <p>Flexible, ongoing care — 2 days/week — as you transition to a self-directed recovery with continued support.</p>
+        <a href="/services/" class="level-link">Learn more &rarr;</a>
+      </div>
+      <div class="level-card">
+        <div class="level-num">06</div>
+        <div class="level-icon">🤝</div>
+        <h3>Sober Living</h3>
+        <p>A structured, supportive residence where clients live independently alongside sober peers and house managers.</p>
+        <a href="/admissions/" class="level-link">Learn more &rarr;</a>
+      </div>
+    </div>
+    <p class="levels-note">Not sure which level is right for you? <a href="tel:8779950102">Call us — we'll help you find out.</a></p>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats-section">
+  <div class="stats-grid">
+    <div class="stat-item">
+      <span class="stat-num" data-target="500">0</span><span class="stat-suffix">+</span>
+      <p>Clients Treated</p>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="15">0</span><span class="stat-suffix">+</span>
+      <p>Licensed &amp; Certified Professionals</p>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="3">0</span>
+      <p>Outpatient Programs</p>
+    </div>
+    <div class="stat-item">
+      <div style="display:inline;"><span class="stat-num" data-target="4.8" data-decimal="1">0</span><span class="stat-suffix"> ★</span></div>
+      <p>Average Google Rating</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE ===== -->
+<section class="why-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Why Us</span>
+      <h2>Why Choose Campus Recovery Center?</h2>
+      <p>We combine clinical excellence with a genuine, human approach to care — because healing takes more than just treatment.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🏆</div>
+        <h4>Joint Commission Accredited</h4>
+        <p>Gold Seal of Approval — the highest national standard of quality and patient safety in behavioral health.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🧬</div>
+        <h4>Evidence-Based Treatment</h4>
+        <p>CBT, DBT, trauma-informed care, and MAT — all backed by the latest clinical research and delivered by experts.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">👤</div>
+        <h4>Personalized Care Plans</h4>
+        <p>Every client gets a fully individualized treatment plan and a dedicated primary therapist from day one.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💊</div>
+        <h4>Medication-Assisted Treatment</h4>
+        <p>Vivitrol, Naltrexone, and Suboxone available when medically appropriate — making recovery more manageable.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🌊</div>
+        <h4>Beautiful Florida Setting</h4>
+        <p>Healing environment in Lake Worth Beach, with access to the best of South Florida's communities.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🔗</div>
+        <h4>Lasting Aftercare Support</h4>
+        <p>Your recovery doesn't end when your program does — we provide alumni support and aftercare planning for every client.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TREATMENT MODALITIES ===== -->
+<section class="modalities-section">
+  <div class="container">
+    <div class="section-header section-header--light">
+      <span class="section-label section-label--light">Treatment Approach</span>
+      <h2>Our Treatment Modalities</h2>
+      <p>Our programs are backed by the latest science in addiction treatment and administered by expert clinicians.</p>
+    </div>
+    <div class="modalities-grid">
+      <div class="mod-card">
+        <div class="mod-icon">🧠</div>
+        <h4>Cognitive Behavioral Therapy (CBT)</h4>
+        <p>Highly effective therapy that helps reframe thought patterns, address underlying causes of addiction, and build coping skills.</p>
+      </div>
+      <div class="mod-card">
+        <div class="mod-icon">⚖️</div>
+        <h4>Dialectical Behavior Therapy (DBT)</h4>
+        <p>Teaches emotional regulation, distress tolerance, and mindfulness to improve relationships and reduce impulsive behavior.</p>
+      </div>
+      <div class="mod-card">
+        <div class="mod-icon">🩺</div>
+        <h4>Dual Diagnosis Treatment</h4>
+        <p>Addresses the common root cause of substance use — mental health — by treating both simultaneously for lasting recovery.</p>
+      </div>
+      <div class="mod-card">
+        <div class="mod-icon">💊</div>
+        <h4>Medication-Assisted Treatment (MAT)</h4>
+        <p>Prescribed medication that reduces cravings and withdrawal symptoms, making recovery safer and more sustainable.</p>
+      </div>
+      <div class="mod-card">
+        <div class="mod-icon">🌿</div>
+        <h4>Holistic Therapy</h4>
+        <p>Comprehensive care addressing physical, mental, emotional, and spiritual well-being alongside clinical treatment.</p>
+      </div>
+      <div class="mod-card">
+        <div class="mod-icon">👥</div>
+        <h4>Group &amp; Family Therapy</h4>
+        <p>Community-based healing and 12-step facilitation, plus family involvement to rebuild trust and healthy relationships.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSURANCE FULL ===== -->
+<section class="insurance-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Coverage</span>
+      <h2>We Accept All Major Insurance</h2>
+      <p>Don't see your plan listed? Call our admissions team — we'll verify your benefits at no cost to you.</p>
+    </div>
+    <div class="insurance-grid">
+      <a href="/insurance/aetna/" class="ins-logo">Aetna</a>
+      <a href="/insurance/ambetter/" class="ins-logo">Ambetter</a>
+      <a href="/insurance/blue-cross-blue-shield/" class="ins-logo">Blue Cross Blue Shield</a>
+      <a href="/insurance/cigna/" class="ins-logo">Cigna</a>
+      <a href="/insurance/humana/" class="ins-logo">Humana</a>
+      <a href="/insurance/medicaid/" class="ins-logo">Medicaid</a>
+      <a href="/insurance/medicare/" class="ins-logo">Medicare</a>
+      <a href="/insurance/molina-healthcare/" class="ins-logo">Molina Healthcare</a>
+      <a href="/insurance/tricare/" class="ins-logo">Tricare</a>
+      <a href="/insurance/united-healthcare/" class="ins-logo">United Healthcare</a>
+    </div>
+    <div class="insurance-cta">
+      <a href="tel:8779950102" class="btn-primary">Call to Verify — (877) 995-0102</a>
+      <a href="/admissions/" class="btn-outline">Verify Insurance Online</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONDITIONS ===== -->
+<section class="conditions-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">What We Treat</span>
+      <h2>Conditions &amp; Disorders We Address</h2>
+      <p>Our clinical team is trained across a wide range of substance use and co-occurring mental health conditions.</p>
+    </div>
+    <div class="conditions-grid">
+      <div class="cond-card">
+        <h3>Substance Use Disorders</h3>
+        <ul>
+          <li>Alcohol Addiction</li>
+          <li>Opioid Use Disorder</li>
+          <li>Heroin &amp; Fentanyl</li>
+          <li>Stimulant Addiction</li>
+          <li>Benzodiazepine Dependency</li>
+          <li>Chronic Relapse</li>
+          <li>Polysubstance Use</li>
+        </ul>
+        <a href="/substance-use-disorder-treatment-services/" class="btn-outline btn-outline--sm">SUD Treatment Details</a>
+      </div>
+      <div class="cond-card cond-card--accent">
+        <h3>Mental Health Conditions</h3>
+        <ul>
+          <li>Depression</li>
+          <li>Anxiety Disorders</li>
+          <li>PTSD &amp; Trauma</li>
+          <li>Bipolar Disorder</li>
+          <li>Schizoaffective Disorder</li>
+          <li>OCD</li>
+          <li>Co-Occurring Disorders</li>
+        </ul>
+        <a href="/mental-health-treatment-services/" class="btn-outline btn-outline--sm">Mental Health Details</a>
+      </div>
+      <div class="cond-card">
+        <h3>Treatment Modalities</h3>
+        <ul>
+          <li>Cognitive Behavioral Therapy (CBT)</li>
+          <li>Dialectical Behavior Therapy (DBT)</li>
+          <li>Trauma-Informed Care</li>
+          <li>Motivational Interviewing</li>
+          <li>12-Step Facilitation</li>
+          <li>Holistic Approaches</li>
+          <li>Family Therapy</li>
+        </ul>
+        <a href="/clinical-programs/" class="btn-outline btn-outline--sm">See All Modalities</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="reviews-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Testimonials</span>
+      <h2>What Our Clients Say</h2>
+      <div class="reviews-rating">
+        <span class="stars">★★★★★</span>
+        <span>4.8 Stars — Google Reviews</span>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p>"The team at Campus Recovery truly changed my life. The therapists are compassionate and the structure of the IOP program gave me exactly what I needed. I'm 10 months sober and doing better than I have in years."</p>
+        <div class="review-author">
+          <div class="review-avatar">M</div>
+          <div>
+            <strong>Michael T.</strong>
+            <span>IOP Graduate</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p>"From day one, I felt like they actually cared about me as a person — not just a patient. The PHP program was intense in the best possible way. My therapist was incredible and group sessions opened my eyes."</p>
+        <div class="review-author">
+          <div class="review-avatar">S</div>
+          <div>
+            <strong>Sarah L.</strong>
+            <span>PHP Graduate</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p>"Campus Recovery exceeded every expectation. The dual diagnosis support was exactly what I needed — treating both my anxiety and my substance use at the same time made all the difference in my recovery."</p>
+        <div class="review-author">
+          <div class="review-avatar">J</div>
+          <div>
+            <strong>Jason R.</strong>
+            <span>Dual Diagnosis Client</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== JOURNEY ===== -->
+<section class="journey-section">
+  <div class="container">
+    <div class="journey-grid">
+      <div class="journey-text">
+        <span class="section-label">Getting Started</span>
+        <h2>We'll Guide You Through Every Step</h2>
+        <p>Recovery can feel overwhelming before it begins. Our admissions team will help you understand your options, verify your insurance, navigate FMLA if needed, and find the right level of care — all at no cost to you.</p>
+        <p>Many clients have questions about taking time off work, what to expect, or whether insurance covers treatment. <strong>We're here to walk you through it all.</strong></p>
+        <a href="tel:8779950102" class="btn-primary">Call Us — (877) 995-0102</a>
+      </div>
+      <div class="journey-steps">
+        <div class="jstep">
+          <div class="jstep-num">1</div>
+          <div>
+            <h4>Call or Contact Us</h4>
+            <p>Speak with our admissions team — confidential, no pressure, no cost to you.</p>
+          </div>
+        </div>
+        <div class="jstep">
+          <div class="jstep-num">2</div>
+          <div>
+            <h4>Insurance Verification</h4>
+            <p>We verify your benefits and explain your coverage in plain language.</p>
+          </div>
+        </div>
+        <div class="jstep">
+          <div class="jstep-num">3</div>
+          <div>
+            <h4>Clinical Assessment</h4>
+            <p>A licensed clinician helps determine the right level of care for your situation.</p>
+          </div>
+        </div>
+        <div class="jstep">
+          <div class="jstep-num">4</div>
+          <div>
+            <h4>Begin Treatment</h4>
+            <p>Start your personalized program and take the first real step toward lasting recovery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="final-cta">
+  <div class="container">
+    <h2>Experience Life Free From Addiction.</h2>
+    <p>Don't let another day go by. Our admissions team is available around the clock — call now or verify your insurance online.</p>
+    <div class="cta-buttons">
+      <a href="tel:8779950102" class="btn-primary btn-lg">Call (877) 995-0102</a>
+      <a href="/admissions/" class="btn-ghost">Verify Insurance</a>
+    </div>
+    <p class="cta-note">Confidential &bull; No Cost &bull; Available 24/7</p>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
 <footer class="site-footer">
   <div class="footer-inner">
-    <div class="footer-col">
-      <h4>Campus Recovery Center</h4>
+    <div class="footer-col footer-brand">
+      <span class="footer-logo">Campus <strong>Recovery</strong> Center</span>
       <p>19 S Dixie Hwy<br>Lake Worth Beach, FL 33460</p>
       <p><a href="tel:8779950102">(877) 995-0102</a></p>
       <p><a href="mailto:info@campusrecoverycenter.com">info@campusrecoverycenter.com</a></p>
+      <p class="footer-accred">🏅 Joint Commission Accredited</p>
     </div>
     <div class="footer-col">
       <h4>Programs</h4>
       <a href="/clinical-programs/">Clinical Programs</a>
       <a href="/services/">Services</a>
       <a href="/substance-use-disorder-treatment-services/">SUD Treatment</a>
-      <a href="/mental-health-treatment-services/">Mental Health Treatment</a>
+      <a href="/mental-health-treatment-services/">Mental Health</a>
     </div>
     <div class="footer-col">
       <h4>About</h4>
@@ -255,6 +566,14 @@
       <a href="/careers/">Careers</a>
     </div>
     <div class="footer-col">
+      <h4>Insurance</h4>
+      <a href="/insurance/aetna/">Aetna</a>
+      <a href="/insurance/cigna/">Cigna</a>
+      <a href="/insurance/blue-cross-blue-shield/">Blue Cross Blue Shield</a>
+      <a href="/insurance/united-healthcare/">United Healthcare</a>
+      <a href="/insurance/">All Insurance</a>
+    </div>
+    <div class="footer-col">
       <h4>Resources</h4>
       <a href="/news-updates/">News &amp; Updates</a>
       <a href="/copy-of-hippa/">HIPAA Policy</a>
@@ -262,8 +581,65 @@
     </div>
   </div>
   <div class="footer-bottom">
-    &copy; 2026 Campus Recovery Center. All rights reserved. | Joint Commission Accredited | <a href="/copy-of-hippa/">HIPAA Policy</a>
+    <span>&copy; 2026 Campus Recovery Center. All rights reserved.</span>
+    <span>Joint Commission Accredited</span>
+    <a href="/copy-of-hippa/">HIPAA Policy</a>
   </div>
 </footer>
+
+<script>
+// Mobile nav toggle
+const toggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.main-nav');
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    nav.classList.toggle('nav-open');
+  });
+}
+
+// Sticky header shadow on scroll
+const header = document.querySelector('.site-header');
+if (header) {
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 10);
+  }, { passive: true });
+}
+
+// Animated stat counters
+function animateCounters() {
+  document.querySelectorAll('.stat-num').forEach(el => {
+    const target = parseFloat(el.dataset.target);
+    const isDecimal = el.dataset.decimal === '1';
+    const duration = 1600;
+    const steps = 60;
+    const increment = target / steps;
+    let current = 0;
+    let count = 0;
+    const timer = setInterval(() => {
+      count++;
+      current = Math.min(current + increment, target);
+      el.textContent = isDecimal ? current.toFixed(1) : Math.floor(current);
+      if (count >= steps) {
+        el.textContent = isDecimal ? target.toFixed(1) : target;
+        clearInterval(timer);
+      }
+    }, duration / steps);
+  });
+}
+
+const statsSection = document.querySelector('.stats-section');
+if (statsSection && 'IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) {
+      animateCounters();
+      observer.disconnect();
+    }
+  }, { threshold: 0.3 });
+  observer.observe(statsSection);
+}
+</script>
+
 </body>
 </html>

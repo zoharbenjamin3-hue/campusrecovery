@@ -1,0 +1,131 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Poppins",
+      "role": "body"
+    },
+    {
+      "family": "Spartan",
+      "role": "heading"
+    }
+  ],
+  "colors": {
+    "primary": "#FF929D",
+    "accent": "#185A7D",
+    "background": "#FFFFFF",
+    "textPrimary": "#185A7D",
+    "link": "#185A7D"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Poppins",
+      "heading": "Spartan"
+    },
+    "fontStacks": {
+      "heading": [
+        "Poppins",
+        "sans-serif"
+      ],
+      "body": [
+        "Poppins",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Poppins",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "40px",
+      "h2": "32px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "10px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#FFFFFF",
+      "textColor": "#185A7D",
+      "borderRadius": "25px",
+      "borderRadiusCorners": {
+        "topLeft": "25px",
+        "topRight": "25px",
+        "bottomRight": "25px",
+        "bottomLeft": "25px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "transparent",
+      "textColor": "#FFFFFF",
+      "borderColor": "#FFFFFF",
+      "borderRadius": "105px",
+      "borderRadiusCorners": {
+        "topLeft": "105px",
+        "topRight": "105px",
+        "bottomRight": "105px",
+        "bottomLeft": "105px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "https://www.renaissancerecovery.com/wp-content/uploads/2025/09/rr-2019-logo-1-1-68b88270caff6.webp",
+    "favicon": "https://www.renaissancerecovery.com/wp-content/uploads/2021/09/renaissance_recovery_favicon152-1-150x150.webp",
+    "ogImage": null,
+    "logoHref": "https://www.renaissancerecovery.com"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 26,
+    "reasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand name 'Renaissance Recovery'.",
+    "confidence": 0.95,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 4,
+      "text": "Verify Insurance",
+      "reasoning": "Button #4 'Verify Insurance' has a distinct action-oriented text and a different background color (#FFFFFF) compared to the others, making it stand out as a primary CTA."
+    },
+    "secondary": {
+      "index": 3,
+      "text": "Read Reviews",
+      "reasoning": "Button #3 'Read Reviews' has a transparent background, making it a suitable secondary CTA with less prominence than the primary."
+    },
+    "confidence": 0.9
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "Individuals seeking addiction recovery services"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.9,
+    "colors": 0.95,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand name 'Renaissance Recovery'.",
+        "confidence": 0.95
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
