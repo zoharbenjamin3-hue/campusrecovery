@@ -532,7 +532,7 @@ ul { padding-left: 1.2rem; }
   justify-content: center;
   flex-shrink: 0;
 }
-.feature-item h4 { font-family: var(--font-head); font-size: .97rem; margin-bottom: .2rem; color: var(--text); font-weight: 600; }
+.feature-item h3 { font-family: var(--font-head); font-size: .97rem; margin-bottom: .2rem; color: var(--text); font-weight: 600; }
 .feature-item p { font-size: .88rem; margin-bottom: 0; }
 
 /* ===========================
@@ -639,7 +639,7 @@ ul { padding-left: 1.2rem; }
   justify-content: center;
   margin-bottom: 1rem;
 }
-.why-card h4 { font-family: var(--font-head); font-size: 1rem; color: var(--text); margin-bottom: .4rem; font-weight: 700; }
+.why-card h3 { font-family: var(--font-head); font-size: 1rem; color: var(--text); margin-bottom: .4rem; font-weight: 700; }
 .why-card p { font-size: .88rem; margin-bottom: 0; }
 
 /* ===========================
@@ -663,7 +663,7 @@ ul { padding-left: 1.2rem; }
 }
 .mod-card:hover { background: rgba(255,255,255,.12); transform: translateY(-3px); }
 .mod-icon { font-size: 1.8rem; margin-bottom: .75rem; }
-.mod-card h4 { font-family: var(--font-head); font-size: 1rem; color: #fff; margin-bottom: .4rem; }
+.mod-card h3 { font-family: var(--font-head); font-size: 1rem; color: #fff; margin-bottom: .4rem; }
 .mod-card p { font-size: .85rem; color: rgba(255,255,255,.72); margin-bottom: 0; }
 
 /* ===========================
@@ -799,7 +799,7 @@ ul { padding-left: 1.2rem; }
   font-size: 1rem;
   flex-shrink: 0;
 }
-.jstep h4 { font-family: var(--font-head); font-size: .97rem; color: var(--accent); margin-bottom: .2rem; font-weight: 600; }
+.jstep h3 { font-family: var(--font-head); font-size: .97rem; color: var(--accent); margin-bottom: .2rem; font-weight: 600; }
 .jstep p { font-size: .88rem; margin-bottom: 0; font-family: var(--font-body); }
 
 /* ===========================
