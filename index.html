@@ -10,6 +10,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 <link rel="stylesheet" href="/css/home.css">
 <meta property="og:title" content="Campus Recovery Center | Addiction &amp; Mental Health Treatment in Lake Worth, FL">
 <meta property="og:description" content="Evidence-based addiction and mental health treatment in Lake Worth Beach, Florida. Joint Commission accredited.">
@@ -32,7 +35,10 @@
       "@id": "https://campusrecoverycenter.com/#organization",
       "name": "Campus Recovery Center",
       "url": "https://campusrecoverycenter.com/",
-      "telephone": "+1-877-995-0102",
+      "logo": "https://campusrecoverycenter.com/images/campus-recovery-center-og.jpg",
+      "image": "https://campusrecoverycenter.com/images/campus-recovery-center-og.jpg",
+      "telephone": ["+1-877-995-0102", "+1-844-406-5956"],
+      "email": "info@campusrecoverycenter.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "19 S Dixie Hwy",
@@ -40,7 +46,91 @@
         "addressRegion": "FL",
         "postalCode": "33460",
         "addressCountry": "US"
-      }
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 26.6170,
+        "longitude": -80.0569
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "$$",
+      "areaServed": [
+        {"@type": "City", "name": "Lake Worth Beach", "containedInPlace": {"@type": "State", "name": "Florida"}},
+        {"@type": "City", "name": "Delray Beach"},
+        {"@type": "City", "name": "Boynton Beach"},
+        {"@type": "City", "name": "West Palm Beach"},
+        {"@type": "AdministrativeArea", "name": "Palm Beach County"}
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Accreditation",
+        "recognizedBy": {"@type": "Organization", "name": "The Joint Commission"}
+      },
+      "medicalSpecialty": ["Psychiatric", "SubstanceAbuse"],
+      "availableService": [
+        {"@type": "MedicalTherapy", "name": "Partial Hospitalization Program (PHP)"},
+        {"@type": "MedicalTherapy", "name": "Intensive Outpatient Program (IOP)"},
+        {"@type": "MedicalTherapy", "name": "Outpatient Program (OP)"},
+        {"@type": "MedicalTherapy", "name": "Medication-Assisted Treatment (MAT)"},
+        {"@type": "MedicalTherapy", "name": "Cognitive Behavioral Therapy (CBT)"},
+        {"@type": "MedicalTherapy", "name": "Dialectical Behavior Therapy (DBT)"},
+        {"@type": "MedicalTherapy", "name": "Dual Diagnosis Treatment"}
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://campusrecoverycenter.com/about/daniel-touloumis/#person",
+        "name": "Daniel Touloumis"
+      },
+      "employee": [
+        {
+          "@type": "Person",
+          "@id": "https://campusrecoverycenter.com/about/freddy-moldt/#person",
+          "name": "Freddy Moldt",
+          "jobTitle": "Clinical Director"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://campusrecoverycenter.com/about/sahil-talwar/#person",
+          "name": "Sahil Talwar",
+          "honorificSuffix": "PA",
+          "jobTitle": "Physician Assistant"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/campusrecovery/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://campusrecoverycenter.com/#website",
+      "url": "https://campusrecoverycenter.com/",
+      "name": "Campus Recovery Center",
+      "publisher": {"@id": "https://campusrecoverycenter.com/#organization"},
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://campusrecoverycenter.com/#webpage",
+      "url": "https://campusrecoverycenter.com/",
+      "name": "Campus Recovery Center | Addiction & Mental Health Treatment in Lake Worth, FL",
+      "isPartOf": {"@id": "https://campusrecoverycenter.com/#website"},
+      "about": {"@id": "https://campusrecoverycenter.com/#organization"},
+      "datePublished": "2024-08-01",
+      "dateModified": "2026-03-29",
+      "inLanguage": "en-US",
+      "description": "Evidence-based addiction and mental health treatment in Lake Worth Beach, Florida. Joint Commission accredited. PHP, IOP, and outpatient programs."
     }
   ]
 }
